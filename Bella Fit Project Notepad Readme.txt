@@ -1,4 +1,4 @@
--- COUNT Number Of Unquie User In FitBand According To Following Activities
+##COUNT Number Of Unquie User In FitBand According To Following Activities
 
 use fitband;
 SELECT Count(distinct ID)  FROM daily_activity;
@@ -11,7 +11,7 @@ SELECT Count(distinct ID)  FROM heart_rate;
 
 
 
-## For finding activity level and calories burnt and also clean the data
+##For finding activity level and calories burnt and also clean the data
 
 Select *
 from daily_activity
@@ -38,7 +38,7 @@ ORDER BY  Total_Active_Distance DESC;
 
 
 
--- Calcuate Time Spent On Activity Per Day
+## Calcuate Time Spent On Activity Per Day
 SELECT Distinct Id, SUM(SedentaryMinutes) as sedentary_minutes,
 SUM(LightlyActiveMinutes) as lightly_active_minutes,
 SUM(FairlyActiveMinutes) as fairly_active_minutes, 
@@ -46,7 +46,7 @@ SUM(VeryActiveMinutes) as very_active_minutes
 FROM daily_activity
 GROUP BY Id;
 
--- Calculation Of Most Active Weekday (On Average)
+## Calculation Of Most Active Weekday (On Average)
 use fitband;
 SET SQL_SAFE_UPDATES = 0; -- In MySQL, the SQL_SAFE_UPDATES mode can be disabled by setting it back to 1.
 						  -- It's important to note that setting SQL_SAFE_UPDATES to 0
@@ -54,7 +54,7 @@ SET SQL_SAFE_UPDATES = 0; -- In MySQL, the SQL_SAFE_UPDATES mode can be disabled
 Update daily_activity
 Set ActivityDate = STR_TO_DATE(ActivityDate, '%m/%d/%Y %h:%i'); --
 
--- Add day_0f_week column on daily_activities
+## Add day_0f_week column on daily_activities
 use fitband;
 Alter Table daily_activity
 ADD day_of_week char(20)
@@ -63,7 +63,7 @@ ADD day_of_week char(20)
 UPDATE daily_activity
 SET Day_of_Week = dayname(ActivityDate);
 
-#to calculate average of total steps, total distance, calories
+## to calculate average of total steps, total distance, calories
 Select AVG(TotalSteps) as avg_steps,
 AVG(TotalDistance) as avg_distance,
 AVG(Calories) as avg_calories,
