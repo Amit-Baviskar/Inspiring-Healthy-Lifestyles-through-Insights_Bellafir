@@ -7,7 +7,7 @@ In this scenario, our role involves functioning as Data Analysts within Bella Be
 The overarching mission of Bella Beat is to Empower Women by providing them with insightful knowledge about their health and daily habits. To uncover new avenues for growth, we are tasked with delving into the analysis of data sourced from smart devices. This analysis holds the potential to significantly contribute to the development of the company's marketing strategy. 
 
 # TOOLS - 
---> PRE DATA CLEANING - EXCEL
+--> PRE DATA CLEANING - EXCEL     
 --> POST DATA CLEANING AND DATA ANALYSIS - Mysql 
 
 # PROMBLE STATEMENT -
