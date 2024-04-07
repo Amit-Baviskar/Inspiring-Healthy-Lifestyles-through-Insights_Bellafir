@@ -7,20 +7,16 @@ In this scenario, our role involves functioning as Data Analysts within Bella Be
 The overarching mission of Bella Beat is to Empower Women by providing them with insightful knowledge about their health and daily habits. To uncover new avenues for growth, we are tasked with delving into the analysis of data sourced from smart devices. This analysis holds the potential to significantly contribute to the development of the company's marketing strategy. 
 
 # TOOLS - 
---> PRE DATA CLEANING - EXCEL     
+--> PRE DATA CLEANING  - EXCEL     
 --> POST DATA CLEANING AND DATA ANALYSIS - Mysql 
 
 # PROMBLE STATEMENT -
 
- COUNT Number Of Unquie User In FitBand According To Following Activities
-## For finding activity level and calories burnt and also clean the data
-## For finding activity level and calories burnt
--- Calcuate Time Spent On Activity Per Day
-
-
--- Calculation Of Most Active Weekday (On Average)
-
-#to calculate average of total steps, total distance, calories
-
+1. Finding the Number Of Users in Bella  Beat Using Different Datasets?
+2. To Find The Relationship Between Calories And Total Steps?
+3. To Find And Analyze the Relation Between Total Step And Sedentary Minutes?
+4. Examine The Active And Sedentary Minutes In the Daily Part Of Life Of Users.
+5. Calculation Of The Most Active Week Day On Average?
+6. Find The Relation between Average Sleep On Weekdays. 
 
 
