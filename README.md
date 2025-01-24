@@ -1,4 +1,4 @@
-# 	:open_file_folder:Google-Data-Analytics-Capstone-Project- :open_file_folder:
+# 	:Inspiring Healthy Lifestyles through Insights-Bellafit :open_file_folder:
 
  This project serves as the culmination of our efforts toward earning the Google Data Analytics Certification. 
 
